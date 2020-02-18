@@ -44,11 +44,11 @@ public abstract class Student implements Comparable<Student>,Serializable {
 	
 		int Quantity = (int)ss.getGrade(); 
 		
-		//ascending order
+		//descending order
 		return Quantity - (int)this.grade;
 		
-		//descending order
-		//return compareQuantity - this.quantity;
+		//ascending order
+		//return (int)this.grade - Quantity;
 		
 	}	
 
